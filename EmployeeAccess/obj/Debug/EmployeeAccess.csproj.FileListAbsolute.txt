@@ -1,0 +1,12 @@
+D:\Asp.Net\EmployeeAccess\bin\Debug\EmployeeAccess.dll.config
+D:\Asp.Net\EmployeeAccess\bin\Debug\EmployeeAccess.dll
+D:\Asp.Net\EmployeeAccess\bin\Debug\EmployeeAccess.pdb
+D:\Asp.Net\EmployeeAccess\bin\Debug\EntityFramework.dll
+D:\Asp.Net\EmployeeAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Asp.Net\EmployeeAccess\bin\Debug\EntityFramework.xml
+D:\Asp.Net\EmployeeAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Asp.Net\EmployeeAccess\obj\Debug\EmployeeAccess.csproj.AssemblyReference.cache
+D:\Asp.Net\EmployeeAccess\obj\Debug\EmployeeAccess.csproj.CoreCompileInputs.cache
+D:\Asp.Net\EmployeeAccess\obj\Debug\EmployeeAccess.csproj.CopyComplete
+D:\Asp.Net\EmployeeAccess\obj\Debug\EmployeeAccess.dll
+D:\Asp.Net\EmployeeAccess\obj\Debug\EmployeeAccess.pdb

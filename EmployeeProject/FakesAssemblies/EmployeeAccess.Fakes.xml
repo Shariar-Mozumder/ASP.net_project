@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeAccess.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeAccess.Fakes.ShimEmployee">
+            <summary>Shim type of EmployeeAccess.Employee</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployee.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployee.#ctor(EmployeeAccess.Employee)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeAccess.Fakes.ShimEmployee.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.DesignationGet">
+            <summary>Sets the Shim of Employee.get_Designation()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.DesignationSetString">
+            <summary>Sets the Shim of Employee.set_Designation(String value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.FirstNameGet">
+            <summary>Sets the Shim of Employee.get_FirstName()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.FirstNameSetString">
+            <summary>Sets the Shim of Employee.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.IDGet">
+            <summary>Sets the Shim of Employee.get_ID()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.IDSetInt32">
+            <summary>Sets the Shim of Employee.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.LastNameGet">
+            <summary>Sets the Shim of Employee.get_LastName()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.LastNameSetString">
+            <summary>Sets the Shim of Employee.set_LastName(String value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.SalaryGet">
+            <summary>Sets the Shim of Employee.get_Salary()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.AllInstances.SalarySetNullableOfInt32">
+            <summary>Sets the Shim of Employee.set_Salary(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployee.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployee.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.Constructor">
+            <summary>Sets the Shim of Employee.Employee()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.DesignationGet">
+            <summary>Sets the Shim of Employee.get_Designation()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.DesignationSetString">
+            <summary>Sets the Shim of Employee.set_Designation(String value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.FirstNameGet">
+            <summary>Sets the Shim of Employee.get_FirstName()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.FirstNameSetString">
+            <summary>Sets the Shim of Employee.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.IDGet">
+            <summary>Sets the Shim of Employee.get_ID()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.IDSetInt32">
+            <summary>Sets the Shim of Employee.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.LastNameGet">
+            <summary>Sets the Shim of Employee.get_LastName()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.LastNameSetString">
+            <summary>Sets the Shim of Employee.set_LastName(String value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.SalaryGet">
+            <summary>Sets the Shim of Employee.get_Salary()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployee.SalarySetNullableOfInt32">
+            <summary>Sets the Shim of Employee.set_Salary(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="T:EmployeeAccess.Fakes.ShimEmployeeDBEntities">
+            <summary>Shim type of EmployeeAccess.EmployeeDBEntities</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployeeDBEntities.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployeeDBEntities.#ctor(EmployeeAccess.EmployeeDBEntities)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:EmployeeAccess.Fakes.ShimEmployeeDBEntities.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.AllInstances.EmployeesGet">
+            <summary>Sets the Shim of EmployeeDBEntities.get_Employees()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.AllInstances.EmployeesSetDbSetOfEmployee">
+            <summary>Sets the Shim of EmployeeDBEntities.set_Employees(DbSet`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the Shim of EmployeeDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployeeDBEntities.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployeeDBEntities.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployeeDBEntities.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.ShimEmployeeDBEntities.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.Constructor">
+            <summary>Sets the Shim of EmployeeDBEntities.EmployeeDBEntities()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.EmployeesGet">
+            <summary>Sets the Shim of EmployeeDBEntities.get_Employees()</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.EmployeesSetDbSetOfEmployee">
+            <summary>Sets the Shim of EmployeeDBEntities.set_Employees(DbSet`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.ShimEmployeeDBEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the Shim of EmployeeDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="T:EmployeeAccess.Fakes.StubEmployee">
+            <summary>Stub type of EmployeeAccess.Employee</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployee.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.StubEmployee.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployee.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployee</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.StubEmployee.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.StubEmployee.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeAccess.Fakes.StubEmployeeDBEntities">
+            <summary>Stub type of EmployeeAccess.EmployeeDBEntities</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.AttachBackingFieldToEmployees">
+            <summary>Attaches delegates to emulate StubEmployeeDBEntities.Employees as a property with a backing field.</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.StubEmployeeDBEntities.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.Dispose(System.Boolean)">
+            <summary>Sets the Stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.StubEmployeeDBEntities.Employees">
+            <summary>Sets the stub of EmployeeDBEntities.get_Employees()</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.EmployeesGet">
+            <summary>Sets the stub of EmployeeDBEntities.get_Employees()</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.EmployeesSetDbSetOfEmployee">
+            <summary>Sets the stub of EmployeeDBEntities.set_Employees(DbSet`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.Equals(System.Object)">
+            <summary>Sets the Stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.GetHashCode">
+            <summary>Sets the Stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeDBEntities</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.StubEmployeeDBEntities.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeAccess.Fakes.StubEmployeeDBEntities.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the Stub of EmployeeDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of EmployeeDBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.SaveChanges">
+            <summary>Sets the Stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.SaveChangesAsync">
+            <summary>Sets the Stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the Stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.Set(System.Type)">
+            <summary>Sets the Stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.Set``1">
+            <summary>Sets the Stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the Stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.ToString">
+            <summary>Sets the Stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:EmployeeAccess.Fakes.StubEmployeeDBEntities.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the Stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:EmployeeAccess.Fakes.StubEmployeeDBEntities.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+    </members>
+</doc>
