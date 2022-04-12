@@ -66,5 +66,11 @@ namespace EmployeeProject.Controllers
                 entities.SaveChanges();
             }
         }
+
+        public void DeleteAllEnplotee()
+        {
+            Console.WriteLine("This is a testing line");
+        }
     }
+
 }
